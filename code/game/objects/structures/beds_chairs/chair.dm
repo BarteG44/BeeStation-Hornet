@@ -200,6 +200,14 @@
 /obj/structure/chair/comfy/shuttle/GetArmrest()
 	return mutable_appearance('icons/obj/chairs.dmi', "shuttle_chair_armrest")
 
+/obj/structure/chair/comfy/barber
+	name = "Barber chair"
+	desc = "A comfortable, reclining chair."
+	icon_state = "barber_chair"
+
+/obj/structure/chair/comfy/barber/GetArmrest()
+	return mutable_appearance('icons/obj/chairs.dmi', "barber_chair_armrest")
+
 /obj/structure/chair/office
 	anchored = FALSE
 	buildstackamount = 5

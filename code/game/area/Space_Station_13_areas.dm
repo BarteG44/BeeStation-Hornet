@@ -609,6 +609,11 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	icon_state = "kitchen_cold"
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 
+/area/crew_quarters/barbershop
+	name = "Barbershop"
+	icon_state = "barbershop"
+	sound_environment = SOUND_AREA_WOODFLOOR
+
 /area/crew_quarters/bar
 	name = "Bar"
 	icon_state = "bar"
@@ -900,6 +905,10 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	name = "Medbay"
 	icon_state = "medbay2"
 
+/area/medical/booth
+	name = "Medical Booth"
+	icon_state = "medbay_booth"
+
 /area/medical/abandoned
 	name = "Abandoned Medbay"
 	icon_state = "abandoned_medbay"
@@ -989,6 +998,10 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 /area/medical/cryo
 	name = "Cryogenics"
 	icon_state = "cryo"
+
+/area/medical/exp_treatment
+	name = "Experimental treatment"
+	icon_state = "exp_treatment"
 
 /area/medical/exam_room
 	name = "Exam Room"
