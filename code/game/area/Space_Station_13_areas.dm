@@ -737,6 +737,10 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	name = "Engineering SMES"
 	icon_state = "engine_smes"
 
+/area/engine/heavy_storage
+	name = "Heavy equipment storage"
+	icon_state = "heavy_equipment"
+
 /area/engine/engineering
 	name = "Engineering"
 	icon_state = "engine"

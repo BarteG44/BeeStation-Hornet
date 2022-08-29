@@ -292,11 +292,11 @@
 	icon_state = "tile_full"
 
 /obj/effect/turf_decal/tile/random/flat_side
-	name = "random flat side"
+	name = "colorful flat side"
 	icon_state = "flat_side"
 
 /obj/effect/turf_decal/tile/random/flat_full
-	name = "random flat"
+	name = "colorful flat"
 	icon_state = "flat_full"
 
 /obj/effect/turf_decal/tile/random/Initialize(mapload)
