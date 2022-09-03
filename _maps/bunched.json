@@ -4,7 +4,7 @@
 	"map_path": "map_files/bunched",
 	"map_file": "bunched4.dmm",
 	"shuttles": {
-		"cargo": "cargo_box",
+		"cargo": "cargo_bunched",
 		"ferry": "ferry_fancy",
 		"whiteship": "whiteship_box",
 		"emergency": "emergency_box"

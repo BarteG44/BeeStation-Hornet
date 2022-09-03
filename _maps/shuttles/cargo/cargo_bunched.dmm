@@ -1,0 +1,278 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"e" = (
+/obj/effect/turf_decal/stripes{
+	dir = 8
+	},
+/turf/open/floor/mineral/titanium/yellow,
+/area/shuttle/supply)
+"g" = (
+/obj/effect/turf_decal/stripes,
+/obj/structure/railing/corner,
+/obj/structure/railing/corner{
+	dir = 8
+	},
+/turf/open/floor/mineral/titanium/yellow,
+/area/shuttle/supply)
+"h" = (
+/obj/effect/turf_decal/stripes{
+	dir = 5
+	},
+/turf/open/floor/mineral/titanium/yellow,
+/area/shuttle/supply)
+"i" = (
+/obj/machinery/door/poddoor{
+	id = "QMLoaddoor2";
+	name = "Supply Dock Loading Door"
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/shuttle/supply)
+"l" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/shuttle/supply)
+"m" = (
+/obj/machinery/door/airlock/titanium{
+	name = "Supply Shuttle Airlock";
+	req_access_txt = "31"
+	},
+/obj/docking_port/mobile/supply{
+	dir = 4
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/shuttle/supply)
+"o" = (
+/obj/effect/turf_decal/stripes{
+	dir = 6
+	},
+/obj/structure/railing,
+/turf/open/floor/mineral/titanium/yellow,
+/area/shuttle/supply)
+"p" = (
+/turf/closed/wall/mineral/titanium,
+/area/shuttle/supply)
+"s" = (
+/obj/machinery/door/poddoor{
+	id = "QMLoaddoor";
+	name = "Supply Dock Loading Door"
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/shuttle/supply)
+"u" = (
+/turf/template_noop,
+/area/shuttle/supply)
+"w" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/corner,
+/turf/open/floor/mineral/titanium/yellow,
+/area/shuttle/supply)
+"y" = (
+/obj/structure/statue/copper/dimas,
+/obj/effect/turf_decal/delivery,
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/shuttle/supply)
+"z" = (
+/obj/structure/shuttle/engine/heater,
+/obj/structure/window/reinforced/spawner{
+	dir = 1
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/shuttle/supply)
+"C" = (
+/obj/effect/turf_decal/tile/brown/tile_marquee,
+/turf/open/floor/mineral/titanium/yellow,
+/area/shuttle/supply)
+"D" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/turf/open/floor/mineral/titanium/yellow,
+/area/shuttle/supply)
+"F" = (
+/obj/structure/shuttle/engine/heater,
+/obj/structure/window/reinforced/spawner{
+	dir = 1
+	},
+/obj/structure/window/reinforced/spawner{
+	dir = 8
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/shuttle/supply)
+"G" = (
+/obj/structure/shuttle/engine/heater,
+/obj/structure/window/reinforced/spawner{
+	dir = 1
+	},
+/obj/structure/window/reinforced/spawner{
+	dir = 4
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/shuttle/supply)
+"H" = (
+/obj/effect/turf_decal/stripes{
+	dir = 9
+	},
+/turf/open/floor/mineral/titanium/yellow,
+/area/shuttle/supply)
+"K" = (
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/shuttle/supply)
+"L" = (
+/obj/effect/turf_decal/tile/brown/tile_marquee,
+/obj/effect/turf_decal/tile/neutral/flat_full,
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/mineral/titanium/yellow,
+/area/shuttle/supply)
+"M" = (
+/obj/effect/turf_decal/stripes{
+	dir = 4
+	},
+/turf/open/floor/mineral/titanium/yellow,
+/area/shuttle/supply)
+"N" = (
+/obj/machinery/door/airlock/titanium{
+	name = "Supply Shuttle Airlock";
+	req_access_txt = "31"
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/shuttle/supply)
+"O" = (
+/obj/effect/turf_decal/stripes{
+	dir = 10
+	},
+/obj/structure/railing,
+/turf/open/floor/mineral/titanium/yellow,
+/area/shuttle/supply)
+"R" = (
+/turf/open/floor/plating/airless,
+/area/shuttle/supply)
+"S" = (
+/turf/template_noop,
+/area/template_noop)
+"U" = (
+/obj/effect/turf_decal/stripes{
+	dir = 1
+	},
+/turf/open/floor/mineral/titanium/yellow,
+/area/shuttle/supply)
+"W" = (
+/obj/effect/spawner/structure/window/shuttle,
+/turf/open/floor/plating/airless,
+/area/shuttle/supply)
+"X" = (
+/obj/structure/shuttle/engine/large,
+/turf/open/floor/plating/airless,
+/area/shuttle/supply)
+"Z" = (
+/obj/effect/turf_decal/stripes,
+/obj/structure/railing,
+/turf/open/floor/mineral/titanium/yellow,
+/area/shuttle/supply)
+
+(1,1,1) = {"
+p
+W
+p
+i
+m
+p
+N
+s
+p
+K
+l
+S
+"}
+(2,1,1) = {"
+p
+H
+e
+D
+e
+e
+e
+D
+O
+z
+R
+X
+"}
+(3,1,1) = {"
+W
+U
+L
+C
+L
+L
+C
+L
+Z
+G
+R
+R
+"}
+(4,1,1) = {"
+W
+U
+C
+C
+C
+C
+C
+C
+g
+y
+l
+u
+"}
+(5,1,1) = {"
+W
+U
+L
+C
+L
+L
+C
+L
+Z
+F
+R
+X
+"}
+(6,1,1) = {"
+p
+h
+M
+w
+M
+M
+M
+w
+o
+z
+R
+R
+"}
+(7,1,1) = {"
+p
+W
+p
+i
+N
+p
+N
+s
+p
+K
+l
+S
+"}
