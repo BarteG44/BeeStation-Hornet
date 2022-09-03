@@ -34,9 +34,7 @@
 	name = "Supply Shuttle Airlock";
 	req_access_txt = "31"
 	},
-/obj/docking_port/mobile/supply{
-	dir = 4
-	},
+/obj/docking_port/mobile/supply,
 /turf/open/floor/plasteel/techmaint,
 /area/shuttle/supply)
 "o" = (
@@ -183,7 +181,7 @@ p
 W
 p
 i
-m
+N
 p
 N
 s
@@ -267,7 +265,7 @@ p
 W
 p
 i
-N
+m
 p
 N
 s
