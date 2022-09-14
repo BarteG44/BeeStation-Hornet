@@ -12,5 +12,5 @@
 Ike709 = Host
 Crossedfall = Host
 CthulhuOnIce = Host
-
+Bartekek = Host
 # the rest are in the db
