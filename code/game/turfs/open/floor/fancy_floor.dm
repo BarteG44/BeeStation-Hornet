@@ -431,3 +431,68 @@
 
 /turf/open/floor/wax/airless
 	initial_gas_mix = AIRLESS_ATMOS
+
+/turf/open/floor/glass
+	name = "glass floor"
+	desc = "Floor which you can see through. Revolutinary."
+	icon = 'icons/turf/floors/glass.dmi'
+	icon_state = "glass-255"
+	base_icon_state = "glass"
+	smoothing_flags = SMOOTH_BITMASK
+	smoothing_groups = list(SMOOTH_GROUP_TURF_OPEN, SMOOTH_GROUP_FLOOR_TRANSPARENT_GLASS)
+	canSmoothWith = list(SMOOTH_GROUP_FLOOR_TRANSPARENT_GLASS)
+	floor_tile = /obj/item/stack/tile/glass
+	flags_1 = NONE
+	bullet_bounce_sound = null
+	footstep = FOOTSTEP_PLATING
+	barefootstep = FOOTSTEP_HARD_BAREFOOT
+	clawfootstep = FOOTSTEP_HARD_CLAW
+	heavyfootstep = FOOTSTEP_GENERIC_HEAVY
+	tiled_dirt = FALSE
+
+/turf/open/floor/glass/examine(mob/user)
+	. = ..()
+	. += "<span class='notice'>There's a <b>small crack</b> on the edge of it.</span>"
+
+/turf/open/floor/glass/Initialize(mapload)
+	. = ..()
+	layer = OPENSPACE_LAYER
+	plane = GLASS_PLANE
+
+	return INITIALIZE_HINT_LATELOAD
+
+/turf/open/floor/glass/update_icon()
+	if(!..())
+		return 0
+	if(!broken && !burnt)
+		if(smoothing_flags & (SMOOTH_CORNERS|SMOOTH_BITMASK))
+			QUEUE_SMOOTH(src)
+	else
+		make_plating()
+		if(smoothing_flags & (SMOOTH_CORNERS|SMOOTH_BITMASK))
+			QUEUE_SMOOTH_NEIGHBORS(src)
+
+/turf/open/floor/glass/LateInitialize()
+	update_multiz(TRUE, TRUE)
+
+/turf/open/floor/glass/Destroy()
+	vis_contents.len = 0
+	return ..()
+
+/turf/open/floor/glass/update_multiz(prune_on_fail = FALSE, init = FALSE)
+	. = ..()
+	var/turf/T = below()
+	if(init)
+		vis_contents += T
+	return TRUE
+
+/turf/open/floor/glass/reinforced
+	name = "reinforced glass floor"
+	desc = "Floor which you can see through. Revolutinary."
+	icon = 'icons/turf/floors/reinf_glass.dmi'
+	icon_state = "reinf_glass-255"
+	base_icon_state = "reinf_glass"
+	smoothing_flags = SMOOTH_BITMASK
+	smoothing_groups = list(SMOOTH_GROUP_TURF_OPEN, SMOOTH_GROUP_FLOOR_TRANSPARENT_GLASS)
+	canSmoothWith = list(SMOOTH_GROUP_FLOOR_TRANSPARENT_GLASS)
+	floor_tile = /obj/item/stack/tile/rglass

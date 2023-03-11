@@ -361,6 +361,21 @@
 /obj/item/stack/tile/fakepit/loaded
 	amount = 30
 
+//Glass
+/obj/item/stack/tile/glass
+	name = "glass tile"
+	singular_name = "glass floor tile"
+	desc = "a see through floor tile."
+	icon_state = "tile_glass"
+	turf_type = /turf/open/floor/glass
+
+/obj/item/stack/tile/rglass
+	name = "reinforced glass tile"
+	singular_name = "reinforced glass floor tile"
+	desc = "a reinforced, see through floor tile."
+	icon_state = "tile_rglass"
+	turf_type = /turf/open/floor/glass/reinforced
+
 //High-traction
 /obj/item/stack/tile/noslip
 	name = "high-traction floor tile"
